@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <a data-ui-sref="entryNew">New Entry</a>
+  </head>
+  <h2>All entries</h2>
+  <body>
+    <div data ng-repeat= "entry in the vm.entries">
+    <p><a data-ui-sref="entryShow{id: entry id}}">{{entry.body}}</a><p>
+   <a data ui-sref= "entryEdit{{id: entry id}">Edit</a>
+ </div>
+
+  </body>
+</html>

@@ -1,0 +1,10 @@
+<h2>Edit Entry</h2>
+
+<form>
+  <input placeholder="author" data-ng-model="vm.entry.author" value="vm.entry.author"/>
+  <input placeholder="photo_url" data-ng-model="vm.entry.photo_url" value="vm.entry.photo_url" />
+  <input placeholder="body" data-ng-model="vm.entry.body" value="vm.entry.body" />
+  <textarea placeholder = "body" data-ng-model="vm.entry.body" value="vm.entry.body"</textarea>
+  <button type= "button" data-mg-click="vm.update()">Update</button>
+  <button type= "button" data-mg-click="vm.destroy()">Delete</button>
+</form>
